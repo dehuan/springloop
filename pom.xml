@@ -6,7 +6,11 @@
 
     <groupId>com.github.dehuan</groupId>
     <artifactId>springloop</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>springloop-test</module>
+    </modules>
 
     <dependencyManagement>
         <dependencies>
